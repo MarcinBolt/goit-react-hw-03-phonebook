@@ -15,6 +15,7 @@ export class ContactList extends Component {
                 <p className={css.contactList__paragraph}>
                   {name}: {number}
                   <button
+                    className={css.contactList__button}
                     type="button"
                     name="delete"
                     id={id}

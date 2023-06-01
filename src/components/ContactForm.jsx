@@ -23,7 +23,7 @@ export class ContactForm extends Component {
     contacts.find(c => c.name.toLowerCase() === newContact.name.toLowerCase())
       ? window.alert(`${newContact.name} is already in contacts.`)
       : addContactToState(newContact);
-    
+
     formDOM.reset();
   };
 

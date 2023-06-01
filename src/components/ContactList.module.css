@@ -22,3 +22,24 @@
   gap: 10px;
   height: 1.2em;
 }
+
+.contactList__button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 4px;
+  padding-inline: 8px;
+  font-weight: 400;
+  background-color: rgba(231, 163, 185, 0.8);
+}
+
+.contactList__button:active {
+  background-color: rgba(218, 17, 17, 0.8);
+  box-shadow: 0px 0px 2px 0px rgba(165, 0, 0, 0.8);
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(165, 0, 0, 0.8);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(165, 0, 0, 0.8);
+}
