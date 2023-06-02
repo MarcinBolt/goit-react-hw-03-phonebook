@@ -5,6 +5,8 @@ import { Filter } from './Filter';
 import css from './App.module.css';
 import localStore from '../utils/localStore';
 
+// add comment to change file
+
 export class App extends Component {
   state = {
     contacts: [],
